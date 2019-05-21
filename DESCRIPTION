@@ -1,11 +1,11 @@
 Package: redshiftTools
 Type: Package
 Title: Amazon Redshift Tools
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: person("Pablo", "Seibelt", email = "pabloseibelt@sicarul.com",
   role = c("aut", "cre"))
 Depends: R (>= 3.3.0)
-Imports: DBI, aws.s3, foreach, doParallel, parallel
+Imports: DBI, aws.s3, purrr, progress
 Suggests: RJDBC, RPostgres
 Description: Efficiently upload data into an Amazon Redshift database using the approach recommended by Amazon <https://aws.amazon.com/es/redshift/>.
 URL: https://github.com/sicarul/redshiftTools
@@ -16,8 +16,8 @@ RoxygenNote: 6.1.1
 Collate: 'append.R' 'create.R' 'internal.R' 'replace.R'
         'table_definition.R' 'upsert.R' 'upsert2.R'
 NeedsCompilation: no
-Packaged: 2019-05-15 14:35:16 UTC; pabloseibelt
+Packaged: 2019-05-20 19:33:09 UTC; pabloseibelt
 Author: Pablo Seibelt [aut, cre]
 Maintainer: Pablo Seibelt <pabloseibelt@sicarul.com>
 Repository: CRAN
-Date/Publication: 2019-05-16 13:40:08 UTC
+Date/Publication: 2019-05-21 16:20:03 UTC
